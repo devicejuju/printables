@@ -12,6 +12,16 @@
 3. **It fits something in the catalog.** `design.yml` names at least one
    device or battery platform on [devicejuju.com](https://devicejuju.com).
 
+## Submitting on devicejuju.com
+
+The easiest way: sign in on devicejuju.com and use **Share a design** on a
+device's page. You fill in a form, upload the files and accept the creator
+certificate below. An admin reviews it, and the site opens a pull request here
+for you. Its commit is authored and signed off as
+`Your Name <u-…@users.devicejuju.com>`: the address identifies your
+devicejuju account without publishing your email, and the site keeps the
+record of when you accepted the certificate.
+
 ## Creator certificate
 
 Every commit must end with a sign-off line (`git commit -s` adds it):
@@ -23,13 +33,13 @@ Signed-off-by: Your Name <you@example.com>
 The sign-off means you certify:
 
 > (a) I created this contribution myself, in whole, and it is not based on
-> anyone else's design;
+> anyone else's design or on a manufacturer's CAD files;
 >
 > (b) I have the right to dedicate it to the public domain, and I do so under
 > CC0 1.0 Universal, irrevocably;
 >
-> (c) I understand the contribution and a record of it, including my name and
-> email in the sign-off, are public and kept indefinitely.
+> (c) I understand the contribution and a record of it, including the name
+> and address in the sign-off, are public and kept indefinitely.
 
 A pull request whose commits aren't all signed off can't be merged.
 
