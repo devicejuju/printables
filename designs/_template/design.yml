@@ -1,0 +1,27 @@
+# Copy this folder to designs/<design-slug> and fill it in.
+
+title: String trimmer wall mount
+summary: Holds a string trimmer by its shaft, screws to a stud.
+kind: mount            # mount | holder | adapter | replacement-part | accessory | other
+version: 1
+
+# Your name as you want it shown. Matches your sign-off.
+creator: Your Name
+
+# What it fits, as listed on devicejuju.com. At least one device or platform.
+fits:
+  devices:
+    - brand: Milwaukee
+      model: 3006-20
+  battery_platforms: []
+    # - brand: Milwaukee
+    #   platform: M18
+
+# Required when battery_platforms isn't empty.
+# safety: >
+#   Keeps the pack's low-voltage cutoff; no thermal cutoff. Tested at 15 A.
+
+print:
+  material: PETG
+  supports: false
+  notes: 3 walls, 30% infill.
