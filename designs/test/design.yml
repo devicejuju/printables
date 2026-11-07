@@ -1,0 +1,10 @@
+# Submitted on devicejuju.com. Dedicated to the public domain under CC0 1.0.
+title: "test"
+summary: "test"
+kind: "mount"
+version: 1
+creator: "Matt Kaatman"
+fits:
+  devices:
+    - brand: "Denon"
+      model: "AVR-X1700H"
